@@ -31,6 +31,7 @@ const Header = () => {
     dispatch(toggleGptSearchView());
     if (showGptSearch) {
     dispatch(removeGptMovieResult());
+    dispatch(changeLanguage("en"));
   }
   };
 
