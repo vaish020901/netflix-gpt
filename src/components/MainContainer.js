@@ -8,7 +8,7 @@ const MainContainer = () => {
 
     if (!movies || movies.length === 0) return null;
     const randomIndex = Math.floor(Math.random() * movies.length);
-    const mainMovie = movies[4];
+    const mainMovie = movies[6];
     
     return (
         <div className="relative">

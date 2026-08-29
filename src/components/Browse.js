@@ -12,7 +12,7 @@ import { useSelector } from 'react-redux'
 const Browse = () => {
   
   const showGptSearch = useSelector(store => store.gpt.showGptSearch)
-  // Fetch data from TMDB API -> Update store with the data -> Display the data in the UI
+  {/*Fetch data from TMDB API -> Update store with the data -> Display the data in the UI*/}
   useNowPlayingMovies();
   usePopularMovies();
   useTopRatedMovies();

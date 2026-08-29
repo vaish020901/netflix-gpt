@@ -7,7 +7,7 @@ const GptMovieSuggestions = () => {
 
   if (!movieNames || !movieResults) return null;
 
-  // Flatten all TMDB results into one array
+  {/* Flatten all TMDB results into one array */}
   const movies = movieResults.flat();
 
   return (
